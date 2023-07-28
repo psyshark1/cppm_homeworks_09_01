@@ -20,7 +20,7 @@ public:
 	}
 	bool operator!=(Fraction fr)
 	{
-		return { !(*this == fr) };
+		return !(*this == fr);
 	}
 	bool operator<(Fraction& fr)
 
